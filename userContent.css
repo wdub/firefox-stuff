@@ -1,0 +1,56 @@
+
+@namespace url(http://www.w3.org/1999/xhtml);
+@-moz-document url("about:newtab") {
+  body {
+    background: linear-gradient(135deg, #262933 22px, #282c34 22px, #282c34 24px, transparent 24px, transparent 67px, #282c34 67px, #282c34 69px, transparent 69px),
+    linear-gradient(225deg, #262933 22px, #282c34 22px, #282c34 24px, transparent 24px, transparent 67px, #282c34 67px, #282c34 69px, transparent 69px)0 64px !important;
+    background-color:#262933 !important;
+    background-size: 64px 128px !important;
+  }
+  #newtab-grid {
+    padding-bottom: 6px;
+  }
+  #newtab-search-container {
+    display: none !important;
+  }
+  #newtab-customize-overlay {
+    background: #21252b !important;
+  }
+  .newtab-cell, .newtab-site, .newtab-link {
+    border-radius: 2px !important;
+  }
+  .newtab-cell {
+    margin: 10px !important;
+    background-color: #393f4c !important;
+  }
+  .newtab-cell:empty {
+    outline: none !important;
+    -moz-outline-radius: 0 0 0 0 !important;
+  }
+  .newtab-site {
+    opacity: 0.8;
+    box-shadow: 0 1px 3px #000 !important;
+    transition: 100ms ease-out;
+  }
+  .newtab-site:hover {
+    opacity: 1;
+  }
+  .newtab-cell:not([ignorehover]) .newtab-control:hover ~ .newtab-link,
+  .newtab-cell:not([ignorehover]) .newtab-link:hover,
+  .newtab-site[dragged] {
+    border: none !important;
+    box-shadow: 0 0 6px 1px #000 !important;
+    margin: 0 !important;
+  }
+  .newtab-sponsored,
+  .newtab-title,
+  .newtab-suggested {
+    border-radius: 0 0 2px 2px !important;
+    border: none !important;
+    background-color: #282c34 !important;
+    color: #9da5b4 !important;
+  }
+  .newtab-thumbnail {
+    border-radius: 2px 2px 0 0 !important;
+  }
+}

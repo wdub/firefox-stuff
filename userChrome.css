@@ -1,0 +1,53 @@
+#nav-bar[inFullscreen="true"] {
+	display: none;
+}
+#TabsToolbar .arrowscrollbox-scrollbox {
+	padding: 0 !important;
+}
+#TabsToolbar .tabbrowser-tabs {
+	min-height: 22px !important;
+	background: #393f4c !important;
+	border-bottom: none !important;
+	width: 50% !important;
+}
+#TabsToolbar .tabbrowser-tab {
+  text-shadow: none !important;
+	padding-bottom: 1px !important;
+/*line-height: 22px !important;*/
+}
+#TabsToolbar .tabbrowser-tab[selected],
+#TabsToolbar .tabbrowser-tab:hover,
+#TabsToolbar .tabbrowser-tab:active,
+#TabsToolbar .tabbrowser-tab:focus,
+#TabsToolbar .tabs-newtab-button:hover,
+#urlbar {
+	background: #262933 !important;
+	border-color: #262933 !important;
+}
+#urlbar, #nav-bar, #TabsToolbar {
+	border: none !important;
+}
+.tabbrowser-tab:not([selected]) .tab-text.tab-label {
+	color: #657b83 !important;
+}
+#search-container {
+	max-width: 250px !important;
+	background: none !important;
+}
+#searchbar {
+	background: none !important;
+	padding: 0 !important;
+}
+.searchbar-search-button-container {
+	display: none !important;
+}
+.searchbar-textbox {
+	background: none !important;
+	border: none !important;
+	padding: 0 !important;
+	color: #657b83 !important;
+}
+.searchbar-engine-button-container {
+	display: none !important;
+}
+#PanelUI-menu-button {display: none;}
