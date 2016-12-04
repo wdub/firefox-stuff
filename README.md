@@ -1,1 +1,3 @@
-# firefox-stuff
+# Custom Developer Edition theme
+
+> ...
